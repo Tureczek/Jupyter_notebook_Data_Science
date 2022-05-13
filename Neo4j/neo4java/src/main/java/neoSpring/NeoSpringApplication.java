@@ -5,6 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+// Running this with a neo4j database running
+
 @EnableTransactionManagement
 @EnableNeo4jRepositories
 @SpringBootApplication
