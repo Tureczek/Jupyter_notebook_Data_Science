@@ -1,6 +1,9 @@
 package neoSpring.accessingneo4jdatarest;
 
+<<<<<<< HEAD
 /*   !! Not needed right now
+=======
+>>>>>>> parent of b166fd1 (Working neo4j example with java and movie database)
 import org.springframework.data.repository.PagingAndSortingRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
@@ -12,4 +15,7 @@ public interface PersonRepository extends PagingAndSortingRepository<Person, Lon
 
     List<Person> findByLastName(@Param("name") String name);
 }
+<<<<<<< HEAD
 */
+=======
+>>>>>>> parent of b166fd1 (Working neo4j example with java and movie database)
