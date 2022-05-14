@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Collection;
 
+// localhost:8080/movie?title=The Matrix
 @RestController
 @RequestMapping("/")
 public class MovieController {

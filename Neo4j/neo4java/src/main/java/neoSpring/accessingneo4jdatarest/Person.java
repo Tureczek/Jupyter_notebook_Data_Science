@@ -8,22 +8,22 @@ import org.springframework.data.neo4j.core.schema.Node;
 public class Person {
     @Id @GeneratedValue private Long id;
 
-    private String name;
-    private int born;
+    private String firstName;
+    private String lastName;
 
-    public String getName() {
-        return name;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public int getBorn() {
-        return born;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setBorn(int born) {
-        this.born = born;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
