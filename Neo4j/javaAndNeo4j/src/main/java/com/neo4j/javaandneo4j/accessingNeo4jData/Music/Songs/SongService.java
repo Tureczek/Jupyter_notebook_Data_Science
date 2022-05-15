@@ -1,4 +1,4 @@
-package com.neo4j.javaandneo4j.accessingNeo4jData.Music;
+package com.neo4j.javaandneo4j.accessingNeo4jData.Music.Songs;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

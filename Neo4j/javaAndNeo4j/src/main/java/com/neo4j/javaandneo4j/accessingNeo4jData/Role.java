@@ -1,5 +1,6 @@
 package com.neo4j.javaandneo4j.accessingNeo4jData;
 
+import com.neo4j.javaandneo4j.accessingNeo4jData.Music.Artists.Person;
 import org.neo4j.ogm.annotation.EndNode;
 import org.neo4j.ogm.annotation.RelationshipEntity;
 import org.neo4j.ogm.annotation.StartNode;

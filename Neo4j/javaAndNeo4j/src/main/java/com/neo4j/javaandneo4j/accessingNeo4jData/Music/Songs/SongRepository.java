@@ -1,7 +1,9 @@
-package com.neo4j.javaandneo4j.accessingNeo4jData.Music;
+package com.neo4j.javaandneo4j.accessingNeo4jData.Music.Songs;
 
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 import org.springframework.data.repository.query.Param;
+
+
 
 public interface SongRepository extends Neo4jRepository<Song, Long> {
 
